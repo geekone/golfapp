@@ -19,8 +19,8 @@ public class TestActivity extends Activity {
 		
 		btn1 = (Button)findViewById(R.id.testbtn1);
 		btn2 = (Button)findViewById(R.id.testbtn2);
-		btn3 = (Button)findViewById(R.id.testbtn2);
-		btn4 = (Button)findViewById(R.id.testbtn2);
+		btn3 = (Button)findViewById(R.id.testbtn3);
+		btn4 = (Button)findViewById(R.id.testbtn4);
 		
 		btn1.setOnClickListener(new Button.OnClickListener(){
 			@Override
