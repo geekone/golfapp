@@ -14,6 +14,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		//跳转到另一个页面
 		Button btn_setup = (Button)findViewById(R.id.btn_setup);
 		btn_setup.setOnClickListener(new Button.OnClickListener() {
 			@Override
@@ -26,6 +27,17 @@ public class MainActivity extends Activity {
 //				MainActivity.this.finish();			//不关的话可以切换
 			}
 			
+		});
+		
+		//点击跳转测试页面
+		Button btn_test = (Button)findViewById(R.id.btn_test);
+		btn_test.setOnClickListener(new Button.OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this, TestActivity.class);
+				startActivity(intent);
+			}
 		});
 		
 	}

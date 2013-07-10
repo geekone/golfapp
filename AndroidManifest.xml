@@ -26,6 +26,26 @@
             android:name="com.geek521.golfapp.SetupActivity"
             android:label="@string/title_activity_setup" >
         </activity>
+        <activity
+            android:name="com.geek521.golfapp.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.geek521.golfapp.TestSharedpreferenceActivity"
+            android:label="@string/title_activity_testsharedpreference" >
+        </activity>
+        <activity
+            android:name="com.geek521.golfapp.TestSqliteActivity"
+            android:label="@string/title_activity_test_sqlite" >
+        </activity>
+        <activity
+            android:name="com.geek521.golfapp.TestFileActivity"
+            android:label="@string/title_activity_test_file" >
+        </activity>
+        <activity
+            android:name="com.geek521.golfapp.TestContentproviderActivity"
+            android:label="@string/title_activity_test_contentprovider" >
+        </activity>
     </application>
 
 </manifest>

@@ -9,5 +9,10 @@
     <string name="setup">setup_activity_title</string>
     <string name="setup_activity_title">设置</string>
     <string name="setup_activity_btn1">返回</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_testsharedpreference">TestsharedpreferenceActivity</string>
+    <string name="title_activity_test_sqlite">TestSqliteActivity</string>
+    <string name="title_activity_test_file">TestFileActivity</string>
+    <string name="title_activity_test_contentprovider">TestContentproviderActivity</string>
 
 </resources>
