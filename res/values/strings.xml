@@ -4,5 +4,10 @@
     <string name="app_name">golfapp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="btn_setup">设置</string>
+    <string name="setup">setup_activity_title</string>
+    <string name="setup_activity_title">设置</string>
+    <string name="setup_activity_btn1">返回</string>
 
 </resources>
